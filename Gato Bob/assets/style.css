@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    
+}
+/* Imagem logo */
+.james-bob{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.login-box h1 {
+    font-size: 24px;
+    color: background rgba(41, 41, 41, 1);
+    margin-bottom: 20px;
+}
+
+.login-box p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Inputs de email e senha */
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    top: 0;
+    left: 0;
+    margin-bottom: 15px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+.social-login button {
+    width: 100px;
+    height: 50px;
+    border: 1px solid rgba(247, 247, 247, 1);
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(247, 247, 247, 1);
+    background-repeat: no-repeat;
+    padding-left: 5%; 
+     margin-bottom: 15px;
+}
+
+
+.background {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 40px 20px;
+    border-radius: 27px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 380px;
+    margin: 0;
+    
+}
+.social-login button:hover {
+    transform: scale(1.05); 
+}
+
+.social-login button a {
+    text-decoration: none;
+    color: transparent; 
+    display: block; 
+    
+
+}
+
+.social-login .google {
+    background-color:  rgba(247, 247, 247, 1); 
+}
+
+.social-login .meta {
+    background-color: rgba(247, 247, 247, 1);
+   
+}
+
+.social-login .apple {
+    background-color: rgba(247, 247, 247, 1);
+    
+}
+
+
+.icon {
+    width: 28px; 
+    height: 28px; 
+    margin-right: 2px; 
+    top: 0;
+    left: 0;
+}
+
+
